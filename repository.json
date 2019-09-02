@@ -1,0 +1,22 @@
+{
+  "name": "给你的书源起个名字，例如：纯二",
+  "summary": "你的书源简介（写你想说的话）",
+  "list": [
+    {
+      "name": "示例书源1",
+      "url": "",
+      "category": 0,
+      "rank": 0,
+      "auth": false,
+      "version": 100
+    },
+    {
+      "name": "示例书源2",
+      "url": "",
+      "category": 0,
+      "rank": 0,
+      "auth": false,
+      "version": 100
+    }
+  ]
+}
