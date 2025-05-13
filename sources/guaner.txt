@@ -2237,7 +2237,7 @@
     "enabled": true,
     "enabledCookieJar": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1747111930157,
+    "lastUpdateTime": 1747147485495,
     "loginUrl": "https://www.lansebook.com/",
     "respondTime": 25141,
     "ruleBookInfo": {
@@ -2257,9 +2257,9 @@
       "name": "tag.a.0@text##《|》"
     },
     "ruleToc": {
-      "chapterList": "class.BCsectionTwo-top-chapter@li\n<js>\nlist = result.toArray();\ns = /originalOrder = .*?;/.test(src)?eval(src.match(/originalOrder = (.*?);/)[1]):result;\nl = [];\nif(/data-x/.test(result)){\n\tl = list.sort((a,b)=>a.attr(\"data-x\")-b.attr(\"data-x\"));\n\t}else{\nfor(i in list){ l[s[i]] = list[i]};\n}\nJSON.stringify(l)\n</js>\ntag.a",
-      "chapterName": "@data-real||abc-title||text##\\\\\"",
-      "chapterUrl": "data-link||href\n@js:/\"/.test(result)?java.base64Decode(result):result",
+      "chapterList": "class.BCsectionTwo-top-chapter@li\n<js>\nlist = result.toArray();\ns = /originalOrder = .*?;/.test(src)?eval(src.match(/originalOrder = (.*?);/)[1]):result;\nl = [];\nif(/data-x/.test(result)){\n\tl = list.sort((a,b)=>a.attr(\"data-x\")-b.attr(\"data-x\"));\n\t}else{\nfor(i in list){ l[s[i]] = list[i]};\n}\n//java.log(JSON.stringify(l))\nJSON.stringify(l)\n</js>\ntag.a",
+      "chapterName": "html\n<js>\na = /(?:data-real|[a-zA-Z]+-title)=\".*?[\\\\\"]>/.test(src)?String(result).match(/(?:data-real|[a-zA-Z]+-title)=\"(.*?)[\\\\\"]>/)[1]:java.getString(\"@@text\");\n</js>##\\\\|\"|&quot;",
+      "chapterUrl": "@href\n<js>\nresult = /html/.test(result)?result:java.base64Decode(String(src).match(/data-(?!idx|x|real)[a-zA-Z]+=\"\\\\&quot;(.*?)\\\\&quot;\"/)[1]);\nString(result).replace(/\\\\|\"|&quot;/g,'');\n</js>",
       "nextTocUrl": "text.下一页@href||text.下一頁@href"
     },
     "searchUrl": "https://www.letsboox.com/s/{{key}}/{{page}}/",
