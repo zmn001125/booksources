@@ -1,8 +1,8 @@
 [
   {
-    "bookSourceName": "单个书源更新【源仓库https://yckceo.vip】guaner001125",
+    "bookSourceName": "单个书源更新【源仓库https://yckceo.vip/】guaner001125",
     "bookSourceType": 0,
-    "bookSourceUrl": "单个书源更新【源仓库https://yckceo.vip】guaner001125",
+    "bookSourceUrl": "单个书源更新【源仓库https://yckceo.vip/】guaner001125",
     "customOrder": 0,
     "enabled": true,
     "enabledCookieJar": true,
